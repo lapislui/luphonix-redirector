@@ -1,5 +1,6 @@
 const express = require("express");
-const serverless = require("serverless-http"); // Important for Vercel
+const serverless = require("serverless-http");
+
 const app = express();
 const router = express.Router();
 
@@ -65,5 +66,6 @@ router.get("/", (req, res) => {
 });
 
 app.use("/api", router);
+
 module.exports = app;
 module.exports.handler = serverless(app);
