@@ -1,0 +1,12 @@
+{
+  "name": "magic-redirector",
+  "version": "1.0.0",
+  "description": "Dynamic redirector with admin UI and copy link",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
