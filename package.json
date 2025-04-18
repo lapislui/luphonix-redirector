@@ -1,12 +1,9 @@
 {
-  "name": "magic-redirector",
+  "name": "magic-redirect-manager",
   "version": "1.0.0",
-  "description": "Dynamic redirector with admin UI and copy link",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "main": "api/index.js",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "serverless-http": "^3.0.0"
   }
 }
